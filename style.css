@@ -336,3 +336,15 @@ footer {
   }
 }
 
+/* Actual profile photo */
+.profile-placeholder {
+  overflow: hidden;
+}
+
+.profile-placeholder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
